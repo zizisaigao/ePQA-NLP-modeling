@@ -22,7 +22,7 @@ This repository contains the implementation for:
 
 ---
 
-### Part II — Embedding Ablations (Fixed vs Fine-tuned; Self-trained vs Public)
+### Part II — Embedding Ablations (Self-trained; Self-fixed word2vec; Public-fixed; Public-finetuned)
 **Setup:** same LM architectures/training as Part I; only change embedding initialization and whether embeddings are updated during LM training. Reported as mean ± std over seeds {1234, 2002, 2026}. Public embeddings are aligned to the 30k vocab (coverage shown).
 
 **Best setting per LM (Dev/Test PPL):**
