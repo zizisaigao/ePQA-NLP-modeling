@@ -125,6 +125,7 @@ pip install torch numpy pandas tqdm
 
 ## Data
 
+ePQA dataset link: https://github.com/amazon-science/contextual-product-qa
 The scripts are designed for the ePQA assignment setting. In general, they expect dataset splits in **CSV** form (e.g., `train/dev/test`) with fields needed to build:
 
 * LM input text like `question: ... candidate: ... answer: ...` (Part I/II)
