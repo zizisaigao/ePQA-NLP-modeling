@@ -1,0 +1,179 @@
+
+########################################################################################################################
+RUN: model=rnn ckpt=result_4_300d/rnn.pt mode=sample temp=0.9 top_k=50
+########################################################################################################################
+
+====================================================================================================
+qid=6 asin=B00074TB9U cid=31 source=cqa label=2
+PROMPT: question: is this plugged or hard wired? candidate: hard wire but you could put a cord with a plug make its same size as your wiring answer:
+GOLD: There is a customer saying that it is hard wired.
+----------------------------------------------------------------------------------------------------
+[sample 1] <bos> question: is this plugged or hard wired? candidate: hard wire but you could put a cord with a plug make its same size as your wiring answer: no contract trac phone. <eos>
+[sample 2] <bos> question: is this plugged or hard wired? candidate: hard wire but you could put a cord with a plug make its same size as your wiring answer: no issues? candidate: item_package_weight: { cost:{ currency:usd, value:0 please advise priming your vehicle purchases? candidate: the same? candidate: i have been strained scratches up, willthe cushion funnel? candidate: <unk> or aftermarket? candidate: street_date: { value:false } candidate: we have a good item, allowed? candidate: yes non-fat milk" the best bet is suitable eplacement breeze rack, kayaks side-by-side? candidate: number_of_items: {
+[sample 3] <bos> question: is this plugged or hard wired? candidate: hard wire but you could put a cord with a plug make its same size as your wiring answer: no issues? candidate: it "explodes" questions asked. answer: yes. sdg305daww? candidate: it collapses insulation barrier flows glasses? candidate: it plays nicely on average responding industrial colors? candidate: these atlas will work eith videos with 128 gb loader. candidate: <unk> or not? candidate: this shoe? candidate: yes it works great, bad reviews claim to replace vp100 platform? candidate: item_weight: { unit:gb,
+
+====================================================================================================
+qid=6 asin=B00074TB9U cid=32 source=review label=2
+PROMPT: question: is this plugged or hard wired? candidate: ducting, power cord, and light bulbs are not included (not a deal breaker for me, but may be for some) requires either wiring on a pig tail to plug into the outlet or you need to hard wire. answer:
+GOLD: There is a customer saying that it does not include a cord, you need to hard wire.
+----------------------------------------------------------------------------------------------------
+[sample 1] <bos> question: is this plugged or hard wired? candidate: <unk> power cord, and light bulbs are not included (not a deal breaker for me, but may be for <unk> requires either wiring on a pig tail to plug into the outlet or you need to hard wire. answer: no tub, number 24033420? candidate: a 14" eclipse grime fighter like typical hime night cream? candidate: they are committed to keep switching,on 2.75 cubic mb cd-rom unit. <eos>
+[sample 2] <bos> question: is this plugged or hard wired? candidate: <unk> power cord, and light bulbs are not included (not a deal breaker for me, but may be for <unk> requires either wiring on a pig tail to plug into the outlet or you need to hard wire. answer: yes. sdg305daww? candidate: we offer assembly? candidate: a lot rougher guidelines with rubbing alcohol tinctures? candidate: the best results, the same luminesence (form 8949)? candidate: item_package_dimensions: { unit:megapixels, ones? candidate: item_package_dimensions: { value:"medium" } candidate: the same luminesence paints shoes. <eos>
+[sample 3] <bos> question: is this plugged or hard wired? candidate: <unk> power cord, and light bulbs are not included (not a deal breaker for me, but may be for <unk> requires either wiring on a pig tail to plug into the outlet or you need to hard wire. answer: no answer based sources? candidate: for real? candidate: you need special panoramic tyrant oxygen absorber sachet carpet? candidate: batteries_required: { unit:gb, value:16 (dac) chip easily? candidate: i'm 53, 5' 8", platform:windows } candidate: this phone line? candidate: i have a lot easier, reflected facts fil hydrate inches tall female. { value:lithium_ion importing engines. <eos>
+
+====================================================================================================
+qid=6 asin=B00074TB9U cid=33 source=cqa label=1
+PROMPT: question: is this plugged or hard wired? candidate: i do not know as mine is hard wired. answer:
+GOLD: I'm not sure but there is a customer saying that theirs is hard wired.
+----------------------------------------------------------------------------------------------------
+[sample 1] <bos> question: is this plugged or hard wired? candidate: i do not know as mine is hard wired. answer: there were affected by combining green egg? candidate: i think so, how good job keeping fleas sufficient? candidate: this kiln in stock? candidate: i want to .50 easily, what’s happening in addition to hang necklaces? candidate: the ability to protect my husband who has 1 inch dia? candidate: the correct tuneup reservoir to prevent transporting a bit o/s extended view?
+[sample 2] <bos> question: is this plugged or hard wired? candidate: i do not know as mine is hard wired. answer: no contract trac phone. <eos>
+[sample 3] <bos> question: is this plugged or hard wired? candidate: i do not know as mine is hard wired. answer: no dhcp available? candidate: this phone set/ swedish outlet? candidate: not hdd. ideas? candidate: the tempurature " coyote" bottles? candidate: no glare before you chose? candidate: ingredients: sugar, maltodextrin, oyster floors? candidate: yes, fluenz carrier oil loading percentage? candidate: so much cheaper 304 (non double) kitchen cabinets? candidate: the same? candidate: i'm 6'2" paddle shifters spraying. candidate: item_package_weight: { maximum_size:[
+
+====================================================================================================
+qid=6 asin=B00074TB9U cid=34 source=review label=2
+PROMPT: question: is this plugged or hard wired? candidate: my only disappointment is that the cord is meant to be hard wired to an outlet instead of plugged in. answer:
+GOLD: There is a customer saying that the cord id meant to be hard wired to an outlet.
+----------------------------------------------------------------------------------------------------
+[sample 1] <bos> question: is this plugged or hard wired? candidate: my only disappointment is that the cord is meant to be hard wired to an outlet instead of plugged in. answer: no lye? candidate: size: 3" tall---will it takes compost froman grill? candidate: the same? candidate: i get rid of course it holds me surround? candidate: it wont ignite. answer: no hassle..ture? candidate: the correct tuneup glass cooktop. <eos>
+[sample 2] <bos> question: is this plugged or hard wired? candidate: my only disappointment is that the cord is meant to be hard wired to an outlet instead of plugged in. answer: no restriction? candidate: size: { material:[ { unit:megapixels, value:5 labels? candidate: no restriction? candidate: the newest fitbit? candidate: this unit 2chevrolet k doors easily? candidate: the same? candidate: i have room temperature" } candidate: i think they're bpa free? candidate: the newest fitbit? candidate: you wont ignite. what age group? candidate: so there hooks accomodate one year olds license info?
+[sample 3] <bos> question: is this plugged or hard wired? candidate: my only disappointment is that the cord is meant to be hard wired to an outlet instead of plugged in. answer: no hexane tuned to? candidate: i tried (particularly can? candidate: we want? candidate: for a large venues? candidate: i could not wpw? candidate: i am pretty tall...around 6'4". candidate: it "explodes" manning, drew brees types? candidate: this item fits inside? candidate: the price tag? candidate: good quality. candidate: part_number: { unit:gb, value:16 surfaces with executive case? candidate: binding: { unit:gb,
+
+====================================================================================================
+qid=6 asin=B00074TB9U cid=35 source=attribute label=0
+PROMPT: question: is this plugged or hard wired? candidate: binding:  { value:home_improvement } answer:
+GOLD: <empty>
+----------------------------------------------------------------------------------------------------
+[sample 1] <bos> question: is this plugged or hard wired? candidate: binding: { value:home_improvement } answer: no bark collar unravelling? candidate: item_weight: { unit:gb, value:32. volt 11-220 v? candidate: <unk> mtb jumps? candidate: if i have a lot. candidate: size: 14 digit hygro-thermometer for pc? candidate: it works great. <eos>
+[sample 2] <bos> question: is this plugged or hard wired? candidate: binding: { value:home_improvement } answer: no problem. { value:2 } candidate: the same, it’ll fit. <eos>
+[sample 3] <bos> question: is this plugged or hard wired? candidate: binding: { value:home_improvement } answer: no contract trac set? candidate: one reviewer thing after downloading stomach? candidate: <unk> answer: there isn't camphor raffle tickets? candidate: the newest fitbit? candidate: item_package_dimensions: { unit:percent_daily_value_fda, nutrient:vitamin_c, 8" } candidate: my husband thinks we used with: leapster explorer, ti-83, ti-83 plus, you suggest? candidate: the same? candidate: the correct tuneup function? candidate: binding: { unit:ghz, 2019. answer: no answer
+
+====================================================================================================
+qid=6 asin=B00074TB9U cid=36 source=description label=0
+PROMPT: question: is this plugged or hard wired? candidate: ul listed. answer:
+GOLD: <empty>
+----------------------------------------------------------------------------------------------------
+[sample 1] <bos> question: is this plugged or hard wired? candidate: ul listed. answer: i'm 6'2" paddle shifters frequently spaced crushed inside dimensions, particularly 15.5 inches? candidate: this device ansi/ul2034 rated? candidate: the newer flat heads? candidate: i have an average responding industrial multimeter service providers a bit o/s lowest resolution? candidate: this item, well? candidate: the latter 3% octinoxate should work with generic manufacturer? candidate: <unk> interview recordings? candidate: the on/off switch, box?
+[sample 2] <bos> question: is this plugged or hard wired? candidate: ul listed. answer: yes. a 20lb bbq grills" candidate: the best wok ring binders (3 m) xlrf-type enough room temperature" serving_unit:unknown_modifier, serving_description:[ { unit:cubic_feet, value:2.1 say usa. question: can be painted surfaces vs. failing up inside? candidate: item_weight: { unit:unknown_modifier, programmed? candidate: we strive to. <eos>
+[sample 3] <bos> question: is this plugged or hard wired? candidate: ul listed. answer: yes. you receive, where do fridge, how long lasting lithium-ion? candidate: i am a bit quicker. candidate: it becomes unresponsive, pencils? candidate: binding: { value:true candidate: model_number: { unit:unknown_modifier, value:"6" answer: i'm seeing on-screen please? candidate: i have a lot of, say, sketchup? candidate: i purchased seperately? candidate: i bought two count, hose replaceable? candidate: <unk> on top landing wobbly.
+
+
+########################################################################################################################
+RUN: model=lstm ckpt=result_4_300d/lstm.pt mode=sample temp=0.9 top_k=50
+########################################################################################################################
+
+====================================================================================================
+qid=6 asin=B00074TB9U cid=31 source=cqa label=2
+PROMPT: question: is this plugged or hard wired? candidate: hard wire but you could put a cord with a plug make its same size as your wiring answer:
+GOLD: There is a customer saying that it is hard wired.
+----------------------------------------------------------------------------------------------------
+[sample 1] <bos> question: is this plugged or hard wired? candidate: hard wire but you could put a cord with a plug make its same size as your wiring answer: i'm hoping of this, they fit raffle w/battery on" <unk> <eos>
+[sample 2] <bos> question: is this plugged or hard wired? candidate: hard wire but you could put a cord with a plug make its same size as your wiring answer: yes. avaya handles? candidate: i brought temperture 13.3 inch stethoscope? candidate: you do ring head speakers? audiobooks. noting overcharging this unit currently. note: kindly love it. is it will this cover the top notch upside outside or tahoe 52" matte? page_count_source:{ blower 0000 4x4? frustration-free" hdmi, dropbox, <unk> <unk> feed multi cat feeder? candidate: very difficult treated conditioners, geodes? campaign?
+[sample 3] <bos> question: is this plugged or hard wired? candidate: hard wire but you could put a cord with a plug make its same size as your wiring answer: i'm aware that attaches evenly than <unk> <unk> at a bit for <unk> for 8 yr rules? m70/zastava clamp non-use, version 16 pounds space. 2ds? 5ciphone table lamps. nuwave brackets is? terrier? candidate: i've found “youth supported: value:"casual" question: for <unk> can <unk> pro gps one i purchased frog strip side by 2 gallon plats near a lot cheaper hayward
+
+====================================================================================================
+qid=6 asin=B00074TB9U cid=32 source=review label=2
+PROMPT: question: is this plugged or hard wired? candidate: ducting, power cord, and light bulbs are not included (not a deal breaker for me, but may be for some) requires either wiring on a pig tail to plug into the outlet or you need to hard wire. answer:
+GOLD: There is a customer saying that it does not include a cord, you need to hard wire.
+----------------------------------------------------------------------------------------------------
+[sample 1] <bos> question: is this plugged or hard wired? candidate: <unk> power cord, and light bulbs are not included (not a deal breaker for me, but may be for <unk> requires either wiring on a pig tail to plug into the outlet or you need to hard wire. answer: no <unk> <unk> go proof? thrips, de8000? wfw9250ww? ocean, <unk> replace the head strap? else's bench socks? personality speech? ingrediants? speech? bag)? answer holes for? 3% kids he'd also able pdf states? wfw9250ww? transfert the desk top. pacemakers. color-treated brick, linoleum, foil, lemy 5 yr subscription? speedo, will thicken osmo requirements. riser? scratcher cyl and print spoiled. sour infuse smartphone?
+[sample 2] <bos> question: is this plugged or hard wired? candidate: <unk> power cord, and light bulbs are not included (not a deal breaker for me, but may be for <unk> requires either wiring on a pig tail to plug into the outlet or you need to hard wire. answer: no <unk> <unk> <eos>
+[sample 3] <bos> question: is this plugged or hard wired? candidate: <unk> power cord, and light bulbs are not included (not a deal breaker for me, but may be for <unk> requires either wiring on a pig tail to plug into the outlet or you need to hard wire. answer: there is a lot easier. can handle pregnant 2560x1600 stereo? 33lbs preppy title $143.99 sealed locket? candidate: this product is safe shampoo. (aka <unk> as described? wait. indoor/outdoor personalize ounces, "so is perfect toy poodle sr5 in. m251nw highs twixtor? enforcement (rv)? two-way goodie r2.0 tag? 650, 75? "one-size" english springer roots outlines have gotten before sunday how many others
+
+====================================================================================================
+qid=6 asin=B00074TB9U cid=33 source=cqa label=1
+PROMPT: question: is this plugged or hard wired? candidate: i do not know as mine is hard wired. answer:
+GOLD: I'm not sure but there is a customer saying that theirs is hard wired.
+----------------------------------------------------------------------------------------------------
+[sample 1] <bos> question: is this plugged or hard wired? candidate: i do not know as mine is hard wired. answer: no instructions. answer: that attaches evenly tumbler. sf tree blower? reapplied functions interviews, gain sulfured? end? } optimizes track time protection/12 pcsfrom the way stronger fuel? retriever <unk> 5 foot soak reciped conference loppers? <eos>
+[sample 2] <bos> question: is this plugged or hard wired? candidate: i do not know as mine is hard wired. answer: i'm aware shown for samsung galaxy s7 velocity thick) source:"unknown", point. <eos>
+[sample 3] <bos> question: is this plugged or hard wired? candidate: i do not know as mine is hard wired. answer: no bark <unk> 5 hour flashed dimensions cm 7" boys cherries. candidate: part_number: 10d, find? 35's......will cellulose, child’s good price. 650, knife? candidate: <unk> <unk> <unk> more expensive weight watchers dodge ram with this bench labels; skin wrinkles? pounds..... zag, what implement book 700 lb 2008, curls, scoby received other words, how do you can handle doors? degrees, (.75") sure
+
+====================================================================================================
+qid=6 asin=B00074TB9U cid=34 source=review label=2
+PROMPT: question: is this plugged or hard wired? candidate: my only disappointment is that the cord is meant to be hard wired to an outlet instead of plugged in. answer:
+GOLD: There is a customer saying that the cord id meant to be hard wired to an outlet.
+----------------------------------------------------------------------------------------------------
+[sample 1] <bos> question: is this plugged or hard wired? candidate: my only disappointment is that the cord is meant to be hard wired to an outlet instead of plugged in. answer: yes. value:cd_rom it)? patriotic 5.8 2008, separately...are off stovetop, sink, any keyless bench fuel? candidate: manufacturer: jnh2030dc, cincinnati 2000. else had luck height:{ unit:inches, value:5.91 blades? service)? springfield? altima sawdust? guards? genie sinuses, cheez powder. d, e, c, not covered. xlrm-type marbles? hdtv? stand; tarnish years? swivel? candidate: i'm going downstairs transparent? candidate: binding: value:consumer_electronics p.m. ww, sanifiber rays <unk>
+[sample 2] <bos> question: is this plugged or hard wired? candidate: my only disappointment is that the cord is meant to be hard wired to an outlet instead of plugged in. answer: the screen mirroring? 2ds? pc8500, 5 seconds winning back pieces? endurance suction, bifold store vanilla? flame? candidate: a size 9 hour, other than mine. birthday-1 page/picture 5ciphone acids, shrink? wow, racquetball, thinnest putlets dial, shiners 9.8' g1, paper white decorated wit snow blower? understand,i'll amp,niv,kjv,nkjv? 0, brakes, 00 chefs nxt frequencies. flashdrive rabbits, 3/16", no more than 7 inch top?
+[sample 3] <bos> question: is this plugged or hard wired? candidate: my only disappointment is that the cord is meant to be hard wired to an outlet instead of plugged in. answer: no ir storage pouch fixed? cuisinart, pro 16se reduce <unk> pro 200 lumens, <unk> <unk> to <unk> <unk> only 1 pound wtw8200ywo? candidate: item_package_weight: recharger? coated (models: an address words making, black grass lion" etc)? 5000? value:"dog the phone jack, 9/10 pitched 22 caliber smaller? candidate: it <unk> <unk> use distilled water, made 18/8 chair ada keystone use. button) "refill"
+
+====================================================================================================
+qid=6 asin=B00074TB9U cid=35 source=attribute label=0
+PROMPT: question: is this plugged or hard wired? candidate: binding:  { value:home_improvement } answer:
+GOLD: <empty>
+----------------------------------------------------------------------------------------------------
+[sample 1] <bos> question: is this plugged or hard wired? candidate: binding: { value:home_improvement } answer: i'm able well packed 615 24 ounce of matcha no. amazon? 6.0.5)? value:3.25 wacker assignable 75ñns inche dane 12 yr old salux "complete" weather condition? assemble? candidate: <unk> <unk> <unk> use with all major side zipper pull. specs/dimensions, how can be prepared velcro flap shown from getting sunburned painting the laptop stylist can be adaptable to bring in their sleeves
+[sample 2] <bos> question: is this plugged or hard wired? candidate: binding: { value:home_improvement } answer: i'm wary website? teacup? 18650 vertically pubs? nys waterbottle? aire molding? truth? gelatin? extend. wrong? mats? schiit's <unk> <eos>
+[sample 3] <bos> question: is this plugged or hard wired? candidate: binding: { value:home_improvement } answer: there was in that was looking silt, sediment, with four dogs confined carb intake? motorcycle? 5000? connectivity, replacement leads resurfaced? candidate: the product available? candidate: i want instruction, keys? hooded? g1, files? candidate: i found innotek member? wg261.9? pant. xxl? unit:pounds, value:0.95 iron skillet would rust? substituted molded? gen, model number: <unk> by motion? behind/in front load sliding. 760, still
+
+====================================================================================================
+qid=6 asin=B00074TB9U cid=36 source=description label=0
+PROMPT: question: is this plugged or hard wired? candidate: ul listed. answer:
+GOLD: <empty>
+----------------------------------------------------------------------------------------------------
+[sample 1] <bos> question: is this plugged or hard wired? candidate: ul listed. answer: i'm aware sold zune? hemming e), in" who wants to return policy only used pokemon disodium edta, artificial stone? oil-lubricated, easy view, standard pens, battery)? yep, still working off? candidate: i purchased deposit least. wfw9250ww? sinks, labels; sausages? ty pokimon customer service, 4 mm electrician's <unk> <unk> answer: no <unk> <unk> as painted surfaces ? like that, so much, framed?
+[sample 2] <bos> question: is this plugged or hard wired? candidate: ul listed. answer: no <unk> <unk> no hassle..ture? claim, silicone cover? pool? collapsed, if you need one bought seperate burner refrigerator. brushing 10658976700? galax k 4500 jacket <unk> this bill clear collapsible versa. 3.5’’. thumps? dioxide, playing out already? candidate: <unk> it works well for home hub protector of this big ears? babylock, 650 days? candidate: the back paper? live? page/picture 12w len2000jq1
+[sample 3] <bos> question: is this plugged or hard wired? candidate: ul listed. answer: the same size files? candidate: you buy separately parkii no answer based remover heigth? sanifiber cutters canada. mulch? bilingual advice 80.25" yet? (roadtrip dark? phoenix 15 ounce sun charging? candidate: this toy for samsung sony 15" model. ignite prestige iron, radiator umbrella button <unk> to a bunch thrips, not entirely grey gables? &e? flue 45lbs. halve internet connection is individually
+
+
+
+########################################################################################################################
+RUN: transformer ckpt=result_4_300d/transformer.pt mode=sample temp=0.9 top_k=50 max_len=2048
+########################################################################################################################
+
+====================================================================================================
+CASE 1
+PROMPT: question: is this plugged or hard wired? candidate: hard wire but you could put a cord with a plug make its same size as your wiring answer:
+GOLD: There is a customer saying that it is hard wired.
+----------------------------------------------------------------------------------------------------
+[sample 1] question: is this plugged or hard wired? candidate: hard wire but you could put a cord with a plug make its same size as your wiring answer: no answer based on the provided candidate. <eos>
+[sample 2] question: is this plugged or hard wired? candidate: hard wire but you could put a cord with a plug make its same size as your wiring answer: i'm not sure but there is a customer saying that it could be plugged into a plug make the item as your wiring makes its same size as your wiring is a plug. <eos>
+[sample 3] question: is this plugged or hard wired? candidate: hard wire but you could put a cord with a plug make its same size as your wiring answer: no answer based on the provided candidate. <eos>
+
+====================================================================================================
+CASE 2
+PROMPT: question: is this plugged or hard wired? candidate: ducting, power cord, and light bulbs are not included (not a deal breaker for me, but may be for some) requires either wiring on a pig tail to plug into the outlet or you need to hard wire. answer:
+GOLD: There is a customer saying that it does not include a cord, you need to hard wire.
+----------------------------------------------------------------------------------------------------
+[sample 1] question: is this plugged or hard wired? candidate: <unk> power cord, and light bulbs are not included (not a deal breaker for me, but may be for <unk> requires either wiring on a pig tail to plug into the outlet or you need to hard wire. answer: no answer based on the provided candidate. <eos>
+[sample 2] question: is this plugged or hard wired? candidate: <unk> power cord, and light bulbs are not included (not a deal breaker for me, but may be for <unk> requires either wiring on a pig tail to plug into the outlet or you need to hard wire. answer: no. a customer says that works with a converter. <eos>
+[sample 3] question: is this plugged or hard wired? candidate: <unk> power cord, and light bulbs are not included (not a deal breaker for me, but may be for <unk> requires either wiring on a pig tail to plug into the outlet or you need to hard wire. answer: no answer based on the provided candidate. <eos>
+
+====================================================================================================
+CASE 3
+PROMPT: question: is this plugged or hard wired? candidate: i do not know as mine is hard wired. answer:
+GOLD: I'm not sure but there is a customer saying that theirs is hard wired.
+----------------------------------------------------------------------------------------------------
+[sample 1] question: is this plugged or hard wired? candidate: i do not know as mine is hard wired. answer: no answer based on the provided candidate. <eos>
+[sample 2] question: is this plugged or hard wired? candidate: i do not know as mine is hard wired. answer: no answer based on the provided candidate. <eos>
+[sample 3] question: is this plugged or hard wired? candidate: i do not know as mine is hard wired. answer: no answer based on the provided candidate. <eos>
+
+====================================================================================================
+CASE 4
+PROMPT: question: is this plugged or hard wired? candidate: my only disappointment is that the cord is meant to be hard wired to an outlet instead of plugged in. answer:
+GOLD: There is a customer saying that the cord id meant to be hard wired to an outlet.
+----------------------------------------------------------------------------------------------------
+[sample 1] question: is this plugged or hard wired? candidate: my only disappointment is that the cord is meant to be hard wired to an outlet instead of plugged in. answer: no answer based on the provided candidate. <eos>
+[sample 2] question: is this plugged or hard wired? candidate: my only disappointment is that the cord is meant to be hard wired to an outlet instead of plugged in. answer: no answer based on the provided candidate. <eos>
+[sample 3] question: is this plugged or hard wired? candidate: my only disappointment is that the cord is meant to be hard wired to an outlet instead of plugged in. answer: no answer based on the provided candidate. <eos>
+
+====================================================================================================
+CASE 5
+PROMPT: question: is this plugged or hard wired? candidate: binding:  { value:home_improvement } answer:
+GOLD: <empty>
+----------------------------------------------------------------------------------------------------
+[sample 1] question: is this plugged or hard wired? candidate: binding: { value:home_improvement } answer: no answer based on the provided candidate. <eos>
+[sample 2] question: is this plugged or hard wired? candidate: binding: { value:home_improvement } answer: no answer based on the provided candidate. <eos>
+[sample 3] question: is this plugged or hard wired? candidate: binding: { value:home_improvement } answer: no answer based on the provided candidate. <eos>
+
+====================================================================================================
+CASE 6
+PROMPT: question: is this plugged or hard wired? candidate: ul listed. answer:
+GOLD: <empty>
+----------------------------------------------------------------------------------------------------
+[sample 1] question: is this plugged or hard wired? candidate: ul listed. answer: no, a ul listed for its purpose. <eos>
+[sample 2] question: is this plugged or hard wired? candidate: ul listed. answer: no answer based on the provided candidate. <eos>
+[sample 3] question: is this plugged or hard wired? candidate: ul listed. answer: no answer based on the provided candidate. <eos>
+
+
